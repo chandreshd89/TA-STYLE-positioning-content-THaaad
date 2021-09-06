@@ -1,15 +1,73 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog 2| Assignment 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="">
+        <img class="brand" src="./logo.png" alt="alt-campus logo" />
+      </a>
+      <nav class="nav">
+        <a href="">HOME</a>
+        <a href="">ABOUT</a>
+        <a href="">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <section class="container clearfix">
+        <article>
+          <h1>This is main content</h1>
+          <p class="article-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+            incidunt, eveniet, consectetur ea magnam aspernatur atque nulla
+            adipisci eos delectus optio sint quae fuga accusantium consequuntur
+            tempore sit molestiae provident. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iusto ratione vitae repellat
+            consequuntur a corporis cumque dolorem dignissimos eligendi ab
+            blanditiis labore, voluptatibus distinctio aut. Unde pariatur quasi
+            numquam atque. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Saepe, quidem dolore ullam rem, unde aliquam fuga aspernatur
+            doloremque laboriosam error modi repudiandae, asperiores temporibus
+            similique exercitationem impedit dicta iste nostrum. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Adipisci fugit maxime
+            commodi soluta a repellat, totam quo in accusantium doloribus ab? Ut
+            officia voluptates tempore cumque cupiditate minus dolorum
+            obcaecati. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Quam voluptates quasi corporis accusantium, quisquam non quia porro
+            architecto quibusdam aspernatur omnis mollitia aliquam? Esse quae
+            iusto laudantium eveniet quaerat cumque. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Minima a ab tempora rem, ex quisquam
+            neque consequuntur, reiciendis hic, quaerat illo velit quam
+            doloremque? Id eligendi hic similique quis. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Sint, nisi. Quisquam corrupti,
+            laboriosam asperiores ea consequatur illum, dolores nihil et in
+            impedit corporis voluptate! Totam optio atque quos natus!
+            Distinctio.
+          </p>
+          <img class="article-img" src="vegetable.png" alt="broccoli-image" />
+        </article>
+      </section>
+      <section class="section">
+        <img class="col" src="image-1.png" alt="img-1" />
+        <img class="col" src="image-2.png" alt="img-2" />
+        <img class="col" src="image-3.png" alt="img-3" />
+        <img class="col" src="image-4.png" alt="img-4" />
+        <img class="col" src="image-5.png" alt="img-5" />
+        <img class="col" src="image-6.png" alt="img-6" />
+      </section>
+    </main>
+    <footer class="footer clearfix">
+      <nav>
+        <a class="social-media" href="#">facebook</a>
+        <a class="social-media" href="#">twitter</a>
+        <a class="social-media" href="#">instagram</a>
+      </nav>
+      <a id="button" href="#">top</a>
+    </footer>
+  </body>
+</html>
